@@ -1,0 +1,18 @@
+  -> Utilizando o Zod junto com o React Hook Form para validação de formulários:
+  import { zodResolver } from "@hookform/resolvers/zod";
+  import * as zod from "zod";
+
+  const newCycleValidationSchema = zod.object({
+    task: zod.string().min(1, "Informe a tarefa"),
+    minutesAmount: zod
+      .number()
+      .min(5, "O ciclo deve ter no mínimo 5 minutos")
+      .max(60, "O ciclo deve ter no máximo 60 minutos"),
+  });
+
+  type NewCycleFormData = zod.infer<typeof newCycleValidationSchema>; // Isso é o mesmo que criar uma interface.
+
+  const { register, handleSubmit, watch } = useForm({
+    resolver: zodResolver(newCycleValidationSchema),
+  });
+  
