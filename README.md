@@ -7,8 +7,9 @@
 
 ## 🚀 Instalando o Ignite Timer
 
-Para instalar o ignite-timer, siga estas etapas:
+> Para instalar o ignite-timer, siga estas etapas:
 
+- Para instalar todas as dependencias do projeto
 ```
 npm install
 ```
@@ -16,9 +17,9 @@ ou
 ```
 npm i
 ```
-- Para instalar todas as dependencias do projeto
 
+- Para rodar o projeto
 ```
 npm run dev
 ```
-- Para rodar o projeto
+
