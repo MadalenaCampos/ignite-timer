@@ -1,27 +1,25 @@
-# React + TypeScript + Vite
+# Ignite Timer
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img src="img/Timer.png" alt="Timer com o tempo de 5 minutos e 10 segundos marcados">
 
-Currently, two official plugins are available:
+> "Contrução de uma aplicação completa com rotemaneot e diversos conceitos importantes do ecosistema [🔗 React](https://pt-br.legacy.reactjs.org/docs/getting-started.html) como ContextAPI, useReducer, immer e muito mais" - [🔗 Rocketseat](https://www.rocketseat.com.br/ignite).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Instalando o Ignite Timer
 
-## Expanding the ESLint configuration
+> Para instalar o ignite-timer, siga estas etapas:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+- Para instalar todas as dependencias do projeto
+```
+npm install
+```
+ou
+```
+npm i
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- Para rodar o projeto
+```
+npm run dev
+```
+
